@@ -1,0 +1,9 @@
+#include<stdio.h>
+main (){
+	int km,cm,m;
+	printf("entr the dis. in kilo m.");
+	scanf("%d",&km);
+	cm=km*100000;
+	m=km*1000;
+	printf("centimeter=%d and meter=%d",cm,m);
+}
